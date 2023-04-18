@@ -1,0 +1,7 @@
+SUM START   0
+FIRST   LDA     #ZERO
+        LDX     #01
+        ADDR    X,A
+        RSUB
+ZERO    EQU     0
+        END     FIRST

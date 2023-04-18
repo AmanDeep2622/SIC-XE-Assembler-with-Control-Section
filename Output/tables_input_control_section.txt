@@ -1,0 +1,40 @@
+**********************************SYMBOL TABLE*****************************
+
+:-	name:undefined	|address:0	|relative:00000 
+0:-	name:	|address:0	|relative:00000 
+BUFEND:-	name:BUFEND	|address:001033	|relative:00001 
+BUFFER:-	name:BUFFER	|address:00033	|relative:00001 
+CLOOP:-	name:CLOOP	|address:00003	|relative:00001 
+ENDFIL:-	name:ENDFIL	|address:00017	|relative:00001 
+EXIT:-	name:EXIT	|address:00020	|relative:00001 
+FIRST:-	name:FIRST	|address:00000	|relative:00001 
+INPUT:-	name:INPUT	|address:00027	|relative:00001 
+LENGTH:-	name:LENGTH	|address:0002D	|relative:00001 
+MAXLEN:-	name:MAXLEN	|address:01000	|relative:00000 
+RDREC:-	name:RDREC	|address:01033	|relative:00001 
+RETADR:-	name:RETADR	|address:0002A	|relative:00001 
+RLOOP:-	name:RLOOP	|address:00009	|relative:00001 
+WLOOP:-	name:WLOOP	|address:00006	|relative:00001 
+WRREC:-	name:WRREC	|address:0002B	|relative:00001 
+
+**********************************LITERAL TABLE*****************************
+
+C'EOF':-	value:C'EOF'	|address:00030 
+X'05':-	value:X'05'	|address:0001B 
+
+**********************************EXTREF TABLE*****************************
+
+RDREC:-	name:RDREC	|DEFAULT 
+WRREC:-	name:WRREC	|DEFAULT 
+BUFEND:-	name:BUFEND	|RDREC 
+BUFFER:-	name:BUFFER	|RDREC 
+LENGTH:-	name:LENGTH	|RDREC 
+BUFFER:-	name:BUFFER	|WRREC 
+LENGTH:-	name:LENGTH	|WRREC 
+
+**********************************EXTDEF TABLE*****************************
+
+BUFEND:-	name:BUFEND	|address:01033	| 
+BUFFER:-	name:BUFFER	|address:00033	| 
+LENGTH:-	name:LENGTH	|address:0002D	| 
+

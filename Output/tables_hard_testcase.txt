@@ -1,0 +1,24 @@
+**********************************SYMBOL TABLE*****************************
+
+:-	name:undefined	|address:0	|relative:00000 
+0:-	name:	|address:0	|relative:00000 
+FIRST:-	name:FIRST	|address:00000	|relative:00001 
+INPUT:-	name:INPUT	|address:0002C	|relative:00001 
+LENGTH:-	name:LENGTH	|address:0000E	|relative:00001 
+OUTPUT:-	name:OUTPUT	|address:00055	|relative:00001 
+RDREC:-	name:RDREC	|address:00011	|relative:00001 
+RLOOP:-	name:RLOOP	|address:00013	|relative:00001 
+VALUE1:-	name:VALUE1	|address:00056	|relative:00001 
+VALUE2:-	name:VALUE2	|address:00059	|relative:00001 
+WLOOP:-	name:WLOOP	|address:00039	|relative:00001 
+WRREC:-	name:WRREC	|address:0002D	|relative:00001 
+
+**********************************LITERAL TABLE*****************************
+
+
+**********************************EXTREF TABLE*****************************
+
+
+**********************************EXTDEF TABLE*****************************
+
+

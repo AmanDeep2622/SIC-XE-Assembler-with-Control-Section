@@ -1,0 +1,6 @@
+************PASS1************
+Line: 205 : Warning Duplicate symbol for 'MAXLEN'. Previously defined at 01000
+
+
+************PASS2************
+Line: 145Format-4 should be used....PC or base relative not supported

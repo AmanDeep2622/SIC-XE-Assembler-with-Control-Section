@@ -1,0 +1,17 @@
+**********************************SYMBOL TABLE*****************************
+
+:-	name:undefined	|address:0	|relative:00000 
+0:-	name:	|address:0	|relative:00000 
+FIRST:-	name:FIRST	|address:00000	|relative:00001 
+ZERO:-	name:ZERO	|address:0000C	|relative:00001 
+
+**********************************LITERAL TABLE*****************************
+
+X'01':-	value:X'01'	|address:0000B 
+
+**********************************EXTREF TABLE*****************************
+
+
+**********************************EXTDEF TABLE*****************************
+
+
